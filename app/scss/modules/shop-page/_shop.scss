@@ -1,0 +1,64 @@
+.shop {
+
+    &__title {
+        font-family: $font-radjhani;
+        font-size: 50px;
+        line-height: 64px;
+        text-align: center;
+        color: $color-mine-shaft;
+        text-align: left;
+        padding: 0 0 30px 30px;
+    }
+
+    &__car {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        padding: 15px 16px;
+    
+        &-item {
+            box-shadow: 0px 5px 10px 0px rgba(34, 60, 80, 0.2);
+            border-radius: 10px;
+        }
+
+        &-name {
+            font-family: $font-radjhani;
+            font-size: 20px;
+            line-height: 26px;
+            color: $color-charade;
+            padding: 13px 0  10px 15px;
+            max-width: 250px;
+        }
+
+        &-price {
+            font-family: $font-radjhani;
+            font-size: 30px;
+            line-height: 38px;
+            color: $color-radical-red;
+            padding: 0 0 15px 15px;
+        }
+
+        &-availability {
+            font-family: $font-os-regular;
+            font-size: 14px;
+            line-height: 19px;
+            color: $color-charade;
+            padding: 0 0 15px 15px;
+        }
+
+        &-button {
+            margin: 0 0 20px 65px;
+        }
+    }
+}
+
+.item-discount {
+    font-family: $font-radjhani;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: $color-dust-gray;
+}
+

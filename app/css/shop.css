@@ -1,0 +1,316 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/open-sans-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-regular.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-regular.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-regular.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans 600";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/open-sans-v20-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-600.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-600.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-600.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-600.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-600.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: "Open Sans 800";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/open-sans-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-800.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-800.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-800.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-800.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-800.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inter-v3-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/inter-v3-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"), url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"), url("../assets/fonts/inter-v3-latin-regular.ttf") format("truetype"), url("../assets/fonts/inter-v3-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* rajdhani-700 - latin */
+@font-face {
+  font-family: "Rajdhani Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/rajdhani-v10-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/rajdhani-v10-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/rajdhani-v10-latin-700.woff2") format("woff2"), url("../assets/fonts/rajdhani-v10-latin-700.woff") format("woff"), url("../assets/fonts/rajdhani-v10-latin-700.ttf") format("truetype"), url("../assets/fonts/rajdhani-v10-latin-700.svg#Rajdhani") format("svg"); /* Legacy iOS */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #252A34;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper_1280 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper_500 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.wrapper-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-family: "Open Sans 600";
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 23px;
+  color: #FF2E63;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.button_red {
+  color: #FFFFFF;
+  border: 1px solid #FF2E63;
+  background-color: #FF2E63;
+  border-radius: 6px;
+}
+.button_mariner {
+  background-color: #346CD9;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 10px 28px;
+}
+.button_next {
+  color: #346CD9;
+  border: 1px solid #346CD9;
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 60px;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav-item {
+  padding: 0 15px;
+  font-family: "Open Sans 600";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+}
+
+.footer {
+  background-color: #346CD9;
+}
+.footer__logo {
+  padding: 16px 0 17px;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__nav-item {
+  padding: 0 15px;
+  font-family: "Open Sans 600";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+}
+.footer__nav-link {
+  color: #FFFFFF;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.main {
+  padding-top: 50px 0 100px;
+}
+
+.filter {
+  border-radius: 10px;
+  max-width: 270px;
+  box-shadow: -1px 5px 10px 12px rgba(34, 60, 80, 0.2);
+  height: 480px;
+  margin-bottom: 30px;
+}
+.filter__price {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #343434;
+  padding: 30px 0 10px 20px;
+}
+.filter__options {
+  display: flex;
+  max-width: 230px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.filter__options-item-value {
+  display: block;
+  max-width: 110px;
+  padding: 8px 10px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+.filter__brand {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #343434;
+  padding: 30px 0 20px 20px;
+}
+.filter__list {
+  padding-left: 20px;
+}
+.filter__list-item {
+  margin: 0 10px 15px 0;
+  transform: scale(1.4);
+}
+.filter__list-span {
+  font-family: "Open Sans Regular";
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #343434;
+}
+.filter__search {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #343434;
+  padding: 30px 0 20px 20px;
+}
+.filter__form-search {
+  width: 220px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  margin: 0 20px;
+}
+
+.contact {
+  padding: 0 20px;
+  max-width: 270px;
+}
+.contact__details {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #343434;
+}
+.contact__item-icon {
+  padding: 10px 0;
+}
+.contact__item-text {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 18px;
+  color: #343434;
+  vertical-align: 13px;
+  padding-left: 5px;
+}
+
+.shop__title {
+  font-family: "Rajdhani Regular";
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+  color: #343434;
+  text-align: left;
+  padding: 0 0 30px 30px;
+}
+.shop__car {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop__card {
+  padding: 15px 16px;
+}
+.shop__card-item {
+  box-shadow: 0px 5px 10px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 10px;
+}
+.shop__card-name {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  color: #252A34;
+  padding: 13px 0 10px 15px;
+  max-width: 250px;
+}
+.shop__card-price {
+  font-family: "Rajdhani Regular";
+  font-size: 30px;
+  line-height: 38px;
+  color: #FF2E63;
+  padding: 0 0 15px 15px;
+}
+.shop__card-availability {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+  padding: 0 0 15px 15px;
+}
+.shop__card-button {
+  margin: 0 0 20px 65px;
+}
+
+.item-discount {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration-line: line-through;
+  color: #999999;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 60px;
+}
+.pages__list {
+  display: flex;
+}
+.pages__list-item {
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  line-height: 25px;
+  color: #343434;
+  padding: 0 10px;
+}
+.pages__list-item a:hover {
+  color: #346CD9;
+  border-bottom: 1px solid #346CD9;
+}

@@ -1,0 +1,95 @@
+.login {
+
+    &__text {
+        font-family: $font-radjhani;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.4px;
+        color: $color-charade;
+        text-align: center;
+        padding: 45px 0 15px;
+    }
+
+    &__email {
+        margin-bottom: 15px;
+
+        & label {
+            display: block;
+            font-family: $font-os-regular;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: -0.2px;
+            color: $color-mine-shaft;
+            padding-bottom: 15px;
+        }
+    
+        & input {
+            width: 500px;
+            height: 35px;
+            border: 1px solid $color-black;
+            border-radius: 10px;
+            padding: 0 10px;
+        }
+    }
+
+    &__password {
+        margin-bottom: 15px;
+
+        & label {
+            display: block;
+            font-family: $font-os-regular;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: -0.2px;
+            color: $color-mine-shaft;
+            padding-bottom: 15px;
+        }
+
+        & input {
+            width: 500px;
+            height: 35px;
+            border: 1px solid $color-black;
+            border-radius: 10px;
+            padding: 0 10px;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 160px;
+    }
+
+    &__forgot {
+        font-family: $font-os-regular;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        color: $color-dust-gray;
+        padding-bottom: 20px;
+        
+        & a {
+            font-family: $font-os-regular;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.1px;
+            color: $color-mariner;
+        }
+    }
+
+    &__remember {
+        font-family: $font-os-regular;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.2px;
+        color: $color-mine-shaft;
+        padding-bottom: 15px;
+
+        & input {
+            transform:scale(1.5);
+            margin-right: 10px;
+        }
+    }
+}

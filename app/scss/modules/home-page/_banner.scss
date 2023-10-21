@@ -1,0 +1,23 @@
+.banner {
+    position: relative;
+    padding: 100px 0 200px;
+
+    &__title-text {
+        font-family: $font-radjhani;
+        font-size: 50px;
+        line-height: 60px;
+        color: $color-mine-shaft;
+        width: 400px;
+        margin-bottom: 35px;
+    }
+
+    &__img {
+        position: absolute;
+        top: 0;
+        right: -20px;
+    }
+}
+
+.title-text_red {
+    color: $color-radical-red;
+}

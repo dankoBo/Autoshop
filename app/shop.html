@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shop.css">
+    <title>Shop</title>
+</head>
+<body>
+    <header class="header wrapper">
+        <div class="header__logo">
+            <img src="assets/images/logo.png" alt="logo-img">
+        </div>
+        <nav class="nav">
+            <ul class="header__nav">
+                <li class="header__nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#">About us</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#">Shop</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#">Contacts</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#">How it Works</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__menu">
+            <a class="button" href="login.html">Login</a>
+            <a class="button button_red" href="register.html">Register</a>
+        </div>
+    </header>
+    
+    <div class="content-wrapper wrapper">
+        <aside class="main__left">
+            <div class="filter">
+                <p class="filter__price">Price</p>
+                <div class="filter__options">
+                    <div class="filter__options-item">
+                        <label for="min-price">Min</label>
+                        <input class="filter__options-item-value" type="number" name="min-price" id="min-price" placeholder="0">
+                    </div>
+                    <div class="filter__options-item">
+                        <label for="max-price">Max</label>
+                        <input class="filter__options-item-value" type="number" name="max-price" id="max-price" placeholder="0">
+                    </div>
+                </div>
+                <p class="filter__brand">Brands</p>
+                <ul class="filter__list">
+                    <li>
+                        <input class="filter__list-item" type="checkbox" id="toyota">
+                        <label for="toyota"><span class="filter__list-span">Toyota</span></label> 
+                    </li>
+                    <li>
+                        <input class="filter__list-item" type="checkbox" id="ford">
+                        <label for="ford"><span class="filter__list-span">Ford</span></label> 
+                    </li>
+                    <li>
+                        <input class="filter__list-item" type="checkbox" id="audi">
+                        <label for="audi"><span class="filter__list-span">Audi</span></label> 
+                    </li>
+                    <li>
+                        <input class="filter__list-item" type="checkbox" id="porsche">
+                        <label for="porsche"><span class="filter__list-span">Porsche</span></label> 
+                    </li>
+                    <li>
+                        <input class="filter__list-item" type="checkbox" id="bugatti"> 
+                        <label for="bugatti"><span class="filter__list-span">Bugatti</span></label>
+                    </li>
+                </ul>
+                <p class="filter__search">Search</p>
+                <input class="filter__form-search" type="search" id="search-form" placeholder="Search by name...">
+            </div>
+    
+            <div class="contact">
+                <p class="contact__details">
+                    Contacts Details
+                </p>
+                <div class="contact__item">
+                    <img class="contact__item-icon" src="assets/icons/smartphone.png" alt=""><span class="contact__item-text">Phone: 879-332-9375</span>
+                </div>
+                <div class="contact__item">
+                    <img class="contact__item-icon" src="assets/icons/email.png" alt=""><span class="contact__item-text">Email: info@pixsellz.io</span>
+                </div>
+                <div class="contact__item">
+                    <img class="contact__item-icon" src="assets/icons/house .png" alt=""><span class="contact__item-text">Adress: 456 Hagenes Gardens Suite 808</span>
+                </div>
+            </div>
+        </aside>
+    
+        <main class="main">
+            <section class="shop">
+                <div class="shop__title">
+                    Our Shop
+                </div>
+                <div class="shop__car">
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-1.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588<span class="item-discount">$15000</span>
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <aticle class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-4.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </aticle>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-1.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588<span class="item-discount">$15000</span>
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-4.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-1.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588<span class="item-discount">$15000</span>
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-4.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-1.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588<span class="item-discount">$15000</span>
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-4.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                    <article class="shop__card">
+                        <div class="shop__card-item">
+                            <img src="assets/images/shop-img/shop-img-1.png" alt="car">
+                            <div class="shop__card-name">
+                                2016 Ford Mustang GT
+                            </div>
+                            <div class="shop__card-price">
+                                $8588<span class="item-discount">$15000</span>
+                            </div>
+                            <div class="shop__card-availability">
+                                Available at your store
+                            </div>
+                            <button class="shop__card-button button button_red">Read More</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="pages">
+                <ul class="pages__list">
+                    <li class="pages__list-item"><a href="#">1</a></li>
+                    <li class="pages__list-item"><a href="#">2</a></li>
+                    <li class="pages__list-item"><a href="#">3</a></li>
+                    <li class="pages__list-item"><a href="#">4</a></li>
+                    <li class="pages__list-item"><a href="#">...</a></li>
+                    <li class="pages__list-item"><a href="#">10</a></li>
+                </ul>
+                <button class="button button_next">Next</button>
+            </section>
+        </main> 
+    </div>
+    
+    <footer class="footer wrapper_1280">
+        <div class="wrapper wrapper-footer-flex">
+            <div class="footer__logo">
+                <img src="assets/images/footer-logo.png" alt="logo-img">
+            </div>
+            <ul class="footer__nav">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Home</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">About us</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Shop</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Blog</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Contacts</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">How it Works</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

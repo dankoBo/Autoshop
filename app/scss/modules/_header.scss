@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 60px;
+
+    &__nav {
+        display: flex;
+
+        &-item {
+            padding: 0 15px;
+            font-family: $font-os-600;
+            font-size: 14px;
+            line-height: 19px;
+            color: $color-charade;
+        }
+    }
+}

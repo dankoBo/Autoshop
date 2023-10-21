@@ -1,0 +1,247 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/open-sans-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-regular.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-regular.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-regular.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans 600";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/open-sans-v20-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-600.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-600.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-600.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-600.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-600.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: "Open Sans 800";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/open-sans-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-800.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-800.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-800.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-800.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-800.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inter-v3-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/inter-v3-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"), url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"), url("../assets/fonts/inter-v3-latin-regular.ttf") format("truetype"), url("../assets/fonts/inter-v3-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* rajdhani-700 - latin */
+@font-face {
+  font-family: "Rajdhani Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/rajdhani-v10-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/rajdhani-v10-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/rajdhani-v10-latin-700.woff2") format("woff2"), url("../assets/fonts/rajdhani-v10-latin-700.woff") format("woff"), url("../assets/fonts/rajdhani-v10-latin-700.ttf") format("truetype"), url("../assets/fonts/rajdhani-v10-latin-700.svg#Rajdhani") format("svg"); /* Legacy iOS */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #252A34;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper_1280 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper_500 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.wrapper-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-family: "Open Sans 600";
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 23px;
+  color: #FF2E63;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.button_red {
+  color: #FFFFFF;
+  border: 1px solid #FF2E63;
+  background-color: #FF2E63;
+  border-radius: 6px;
+}
+.button_mariner {
+  background-color: #346CD9;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 10px 28px;
+}
+.button_next {
+  color: #346CD9;
+  border: 1px solid #346CD9;
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 60px;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav-item {
+  padding: 0 15px;
+  font-family: "Open Sans 600";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+}
+
+.footer {
+  background-color: #346CD9;
+}
+.footer__logo {
+  padding: 16px 0 17px;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__nav-item {
+  padding: 0 15px;
+  font-family: "Open Sans 600";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+}
+.footer__nav-link {
+  color: #FFFFFF;
+}
+
+.tabs {
+  padding: 0 20px;
+}
+.tabs__name {
+  border-bottom: solid 2px #999999;
+  display: flex;
+  justify-content: center;
+}
+.tabs__link {
+  padding: 0 30px;
+}
+.tabs a {
+  font-family: "Rajdhani Regular";
+  font-size: 50px;
+  line-height: 64px;
+  color: #343434;
+}
+.tabs a:hover {
+  border-bottom: 4px solid red;
+}
+
+.login__text {
+  font-family: "Rajdhani Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.4px;
+  color: #252A34;
+  text-align: center;
+  padding: 45px 0 15px;
+}
+.login__email {
+  margin-bottom: 15px;
+}
+.login__email label {
+  display: block;
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #343434;
+  padding-bottom: 15px;
+}
+.login__email input {
+  width: 500px;
+  height: 35px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.login__password {
+  margin-bottom: 15px;
+}
+.login__password label {
+  display: block;
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #343434;
+  padding-bottom: 15px;
+}
+.login__password input {
+  width: 500px;
+  height: 35px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.login__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+.login__forgot {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #999999;
+  padding-bottom: 20px;
+}
+.login__forgot a {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #346CD9;
+}
+.login__remember {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #343434;
+  padding-bottom: 15px;
+}
+.login__remember input {
+  transform: scale(1.5);
+  margin-right: 10px;
+}

@@ -1,0 +1,24 @@
+.review {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-link-water;
+
+    &__text {
+        margin: 0 auto;
+        padding: 105px 0;
+        max-width: 400px;
+        font-family: $font-os-600;
+        font-size: 20px;
+        color: $color-mine-shaft;
+        text-align: center;
+
+        &-author {
+            padding-top: 30px;
+            font-family: $font-os-regular;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $color-mine-shaft; 
+        }
+    }
+}

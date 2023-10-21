@@ -1,0 +1,27 @@
+.contact {
+    padding: 0 20px;
+    max-width: 270px;
+
+    &__details {
+        font-family: $font-radjhani;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        color: $color-mine-shaft;
+    }
+
+
+    &__item-icon {
+        padding: 10px 0;
+    }
+
+    &__item-text {
+        font-family: $font-os-regular;
+        font-size: 14px;
+        line-height: 18px;
+        color: $color-mine-shaft;
+        vertical-align: 13px;
+        padding-left: 5px;
+    }
+    
+}

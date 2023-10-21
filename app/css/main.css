@@ -1,0 +1,329 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/open-sans-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-regular.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-regular.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-regular.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans 600";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/open-sans-v20-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-600.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-600.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-600.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-600.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-600.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: "Open Sans 800";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/open-sans-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/open-sans-v20-latin-800.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans-v20-latin-800.woff2") format("woff2"), url("../assets/fonts/open-sans-v20-latin-800.woff") format("woff"), url("../assets/fonts/open-sans-v20-latin-800.ttf") format("truetype"), url("../assets/fonts/open-sans-v20-latin-800.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inter-v3-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/inter-v3-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"), url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"), url("../assets/fonts/inter-v3-latin-regular.ttf") format("truetype"), url("../assets/fonts/inter-v3-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* rajdhani-700 - latin */
+@font-face {
+  font-family: "Rajdhani Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/rajdhani-v10-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/rajdhani-v10-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/rajdhani-v10-latin-700.woff2") format("woff2"), url("../assets/fonts/rajdhani-v10-latin-700.woff") format("woff"), url("../assets/fonts/rajdhani-v10-latin-700.ttf") format("truetype"), url("../assets/fonts/rajdhani-v10-latin-700.svg#Rajdhani") format("svg"); /* Legacy iOS */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #252A34;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper_1280 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper_500 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.wrapper-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-family: "Open Sans 600";
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 23px;
+  color: #FF2E63;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.button_red {
+  color: #FFFFFF;
+  border: 1px solid #FF2E63;
+  background-color: #FF2E63;
+  border-radius: 6px;
+}
+.button_mariner {
+  background-color: #346CD9;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 10px 28px;
+}
+.button_next {
+  color: #346CD9;
+  border: 1px solid #346CD9;
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 60px;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav-item {
+  padding: 0 15px;
+  font-family: "Open Sans 600";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+}
+
+.banner {
+  position: relative;
+  padding: 100px 0 200px;
+}
+.banner__title-text {
+  font-family: "Rajdhani Regular";
+  font-size: 50px;
+  line-height: 60px;
+  color: #343434;
+  width: 400px;
+  margin-bottom: 35px;
+}
+.banner__img {
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+.title-text_red {
+  color: #FF2E63;
+}
+
+.product {
+  padding: 80px 0 100px;
+}
+.product__head {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.product__title {
+  width: 300px;
+  font-family: "Rajdhani Regular";
+  font-size: 36px;
+  line-height: 46px;
+  color: #343434;
+}
+.product__link {
+  width: 90px;
+  font-family: "Open Sans Regular";
+  font-size: 16px;
+  line-height: 22px;
+  color: #FF2E63;
+  padding: 20px 0;
+}
+.product__car {
+  display: flex;
+  justify-content: space-between;
+}
+.product__car-item {
+  box-shadow: -1px 5px 10px 12px rgba(34, 60, 80, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+.product__car-item-name {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  color: #252A34;
+  padding: 13px 0 40px 15px;
+  max-width: 250px;
+}
+.product__car-item-price {
+  font-family: "Rajdhani Regular";
+  font-size: 30px;
+  line-height: 38px;
+  color: #FF2E63;
+  padding: 0 0 15px 15px;
+}
+.product__car-item-availability {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+  padding: 0 0 15px 15px;
+}
+.product__car-item-link {
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+}
+
+.item-discount {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration-line: line-through;
+  color: #999999;
+}
+
+.progression {
+  padding-bottom: 100px;
+}
+.progression__title {
+  font-family: "Rajdhani Regular";
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #343434;
+  padding-bottom: 80px;
+}
+.progression__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.progression__step {
+  max-width: 250px;
+  text-align: center;
+}
+.progression__step-text {
+  font-family: "Open Sans 800";
+  font-size: 16px;
+  line-height: 22px;
+  color: #343434;
+  padding: 30px 0;
+}
+.progression__step-description {
+  font-family: "Open Sans Regular";
+  font-size: 16px;
+  line-height: 22px;
+  color: #343434;
+}
+.progression__arrow {
+  padding: 20px 0;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E7EDFA;
+}
+.review__text {
+  margin: 0 auto;
+  padding: 105px 0;
+  max-width: 400px;
+  font-family: "Open Sans 600";
+  font-size: 20px;
+  color: #343434;
+  text-align: center;
+}
+.review__text-author {
+  padding-top: 30px;
+  font-family: "Open Sans Regular";
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #343434;
+}
+
+.article {
+  padding: 80px 0 100px;
+}
+.article__name {
+  padding: 50px 0;
+  max-width: 300px;
+  font-family: "Rajdhani Regular";
+  font-size: 36px;
+  line-height: 46px;
+  color: #343434;
+}
+.article__car {
+  display: flex;
+  justify-content: space-between;
+}
+.article__car-item {
+  box-shadow: -1px 5px 10px 12px rgba(34, 60, 80, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+.article__car-item-name {
+  font-family: "Rajdhani Regular";
+  font-size: 20px;
+  line-height: 26px;
+  color: #252A34;
+  padding: 0 0 8px 15px;
+  max-width: 250px;
+}
+.article__car-item-date {
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+  padding: 0 0 15px 15px;
+}
+
+.footer {
+  background-color: #346CD9;
+}
+.footer__logo {
+  padding: 16px 0 17px;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__nav-item {
+  padding: 0 15px;
+  font-family: "Open Sans 600";
+  font-size: 14px;
+  line-height: 19px;
+  color: #252A34;
+}
+.footer__nav-link {
+  color: #FFFFFF;
+}

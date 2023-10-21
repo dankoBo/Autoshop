@@ -1,0 +1,76 @@
+.product {
+    padding: 80px 0 100px;
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+
+    &__title {
+        width: 300px;
+        font-family: $font-radjhani;
+        font-size: 36px;
+        line-height: 46px;
+        color: $color-mine-shaft;
+    }
+
+    &__link {
+        width: 90px;
+        font-family: $font-os-regular;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-radical-red;
+        padding: 20px 0;
+    }
+    
+    &__car {
+        display: flex;
+        justify-content: space-between;
+        
+        &-item {
+            box-shadow: -1px 5px 10px 12px rgba(34, 60, 80, 0.2);
+            border-radius: 10px;
+            position: relative;
+
+            &-name {
+                font-family: $font-radjhani;
+                font-size: 20px;
+                line-height: 26px;
+                color: $color-charade;
+                padding: 13px 0  40px 15px;
+                max-width: 250px;
+            }
+    
+            &-price {
+                font-family: $font-radjhani;
+                font-size: 30px;
+                line-height: 38px;
+                color: $color-radical-red;
+                padding: 0 0 15px 15px;
+            }
+    
+            &-availability {
+                font-family: $font-os-regular;
+                font-size: 14px;
+                line-height: 19px;
+                color: $color-charade;
+                padding: 0 0 15px 15px;
+            }
+
+            &-link {
+                position: absolute;
+                right: 0;
+                bottom: -4px;
+            }
+        }
+    }
+}
+
+.item-discount {
+    font-family: $font-radjhani;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: $color-dust-gray;
+}

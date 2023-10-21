@@ -1,0 +1,41 @@
+.progression {
+    padding-bottom: 100px;
+    
+    &__title {
+        font-family: $font-radjhani;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: $color-mine-shaft;
+        padding-bottom: 80px;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__step {
+        max-width: 250px;
+        text-align: center;
+
+        &-text {
+            font-family: $font-os-800;
+            font-size: 16px;
+            line-height: 22px;
+            color: $color-mine-shaft;
+            padding: 30px 0;
+        }
+
+        &-description {
+            font-family: $font-os-regular;
+            font-size: 16px;
+            line-height: 22px;
+            color: $color-mine-shaft;
+        }
+    }
+
+    &__arrow {
+        padding: 20px 0;
+    }
+}

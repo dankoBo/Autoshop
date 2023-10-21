@@ -1,0 +1,67 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/open-sans-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/open-sans-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/open-sans-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/open-sans-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/open-sans-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/open-sans-v20-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+  /* open-sans-600 - latin */
+@font-face {
+    font-family: 'Open Sans 600';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/open-sans-v20-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/open-sans-v20-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/open-sans-v20-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/open-sans-v20-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/open-sans-v20-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/open-sans-v20-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+  /* open-sans-800 - latin */
+@font-face {
+    font-family: 'Open Sans 800';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../assets/fonts/open-sans-v20-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/open-sans-v20-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/open-sans-v20-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/open-sans-v20-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/open-sans-v20-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/open-sans-v20-latin-800.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/inter-v3-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/inter-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/inter-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/inter-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/inter-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/inter-v3-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}
+
+/* rajdhani-700 - latin */
+@font-face {
+    font-family: 'Rajdhani Regular';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/rajdhani-v10-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/rajdhani-v10-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/rajdhani-v10-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/rajdhani-v10-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/rajdhani-v10-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/rajdhani-v10-latin-700.svg#Rajdhani') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <header class="header wrapper">
+        <div class="header__logo">
+            <img src="assets/images/logo.png" alt="logo-img">
+        </div>
+        <ul class="header__nav">
+            <li class="header__nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#">About us</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="shop.html">Shop</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#">Blog</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#">Contacts</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#">How it Works</a>
+            </li>
+        </ul>
+        <div class="header__menu">
+            <a class="button" href="login.html">Login</a>
+            <a class="button button_red" href="#">Register</a>
+        </div>
+    </header>
+
+    <section class="tabs wrapper">
+        <ul class="tabs__name">
+            <li class="tabs__name-link">
+              <a href="login.html">Login</a>
+            </li>
+            <li class="tabs__name-link">
+              <a href="register.html">Register</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="registration wrapper_500">
+        <form>
+            <div class="registration__text">
+                Create an Account
+            </div>
+            <div class="registration__name">
+                <div class="registration__name-item">
+                    <label for="user-name">First Name</label>
+                    <input id="user-name" type="text" name="user-name">
+                </div>
+                <div class="registration__name-item">
+                    <label for="user-last-name">Last Name</label>
+                    <input id="user-last-name" type="text" name="user-last-name">
+                </div>
+                
+            </div>
+            <div class="registration__email">
+                <label for="user-email">E-mail</label>
+                <input id="user-email" type="email" name="user-email">
+            </div>
+            <div class="registration__sex">
+                <input type="radio" id="user-sex"
+                name="user-sex" value="male">
+                <label for="user-sex">Male</label>
+
+                <input type="radio" id="user-sex"
+                name="user-sex" value="femele">
+                <label for="user-sex">Female</label>
+            </div>
+            <div class="registration__password">
+                <div class="registration__password-item">
+                    <label for="user-password">Password</label>
+                    <input id="user-password" type="text" name="user-password">
+                </div>
+                <div class="registration__password-item">
+                    <label for="user-password">Confirm Password</label>
+                    <input id="user-password" type="text" name="user-password">
+                </div> 
+            </div>
+            <div class="registration__button">
+                <button class="button button_red">Register</button>
+            </div>
+            <div class="registration__policy">
+                <p>
+                    By clicking the 'Sign Up' button, you confirm that you accept our
+                </p>
+                <p>
+                    <a href="#">Terms of Use</a>
+                        and
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer wrapper_1280">
+        <div class="wrapper wrapper-footer-flex">
+            <div class="footer__logo">
+                <img src="assets/images/footer-logo.png" alt="logo-img">
+            </div>
+            <ul class="footer__nav">
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Home</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">About us</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Shop</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Blog</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">Contacts</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a class="footer__nav-link" href="#">How it Works</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

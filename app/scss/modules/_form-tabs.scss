@@ -1,0 +1,23 @@
+.tabs {
+  padding: 0 20px;
+  &__name {
+		border-bottom: solid 2px $color-dust-gray;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__link {
+		padding: 0 30px;
+	}
+
+	a {
+		font-family: $font-radjhani;
+		font-size: 50px;
+		line-height: 64px;
+		color: $color-mine-shaft;
+	}
+
+	a:hover {
+		border-bottom: 4px solid red;
+	}
+}

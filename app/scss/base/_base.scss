@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: $color-charade;
+}
+
+li {
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+
+	&_1280 {
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+
+	&_500 {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+}
+
+.wrapper-footer-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

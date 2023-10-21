@@ -1,0 +1,31 @@
+.button {
+    font-family: $font-os-600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 23px;
+    color: $color-radical-red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+
+    &_red {
+        color: $color-white;
+        border: 1px solid $color-radical-red;
+        background-color: $color-radical-red;
+        border-radius: 6px;
+    }
+
+    &_mariner {
+        background-color: $color-mariner;
+        color: $color-white;
+        border-radius: 6px;
+        padding: 10px 28px;
+    }
+
+    &_next {
+        color: $color-mariner;
+        border: 1px solid $color-mariner;
+        border-radius: 6px;
+    }
+}

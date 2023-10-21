@@ -1,0 +1,83 @@
+.content-wrapper {
+    display: flex;
+}
+
+.main {
+    padding-top: 50px 0 100px;
+}
+
+.filter {
+    border-radius: 10px;
+    max-width: 270px;
+    box-shadow: -1px 5px 10px 12px rgba(34, 60, 80, 0.2);
+    height: 480px;
+    margin-bottom: 30px;
+
+    &__price {
+        font-family: $font-radjhani;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        color: $color-mine-shaft;
+        padding: 30px 0 10px 20px;
+    }
+
+    &__options {
+        display: flex;
+        max-width: 230px;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        &-item-value {
+            display: block;
+            max-width: 110px;
+            padding: 8px 10px;
+            border: 1px solid $color-black;
+            border-radius: 6px;
+        }
+    }
+
+    &__brand {
+        font-family: $font-radjhani;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        color: $color-mine-shaft;
+        padding: 30px 0 20px 20px;
+    }
+
+    &__list {
+        padding-left: 20px;
+
+        &-item {
+            margin: 0 10px 15px 0;
+            transform: scale(1.4);
+        }
+
+        &-span {
+            font-family: $font-os-regular;
+            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: -0.2px;
+            color: $color-mine-shaft;
+        }
+    }
+
+    &__search {
+        font-family: $font-radjhani;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        color: $color-mine-shaft;
+        padding: 30px 0 20px 20px;
+    }
+
+    &__form-search {
+        width: 220px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        border: 1px solid $color-black;
+        margin: 0 20px;
+    }
+}
+

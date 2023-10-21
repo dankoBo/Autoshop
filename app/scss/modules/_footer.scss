@@ -1,0 +1,23 @@
+.footer {
+    background-color: $color-mariner;
+
+    &__logo {
+        padding: 16px 0 17px;
+    }
+
+    &__nav {
+        display: flex;
+
+        &-item {
+            padding: 0 15px;
+            font-family: $font-os-600;
+            font-size: 14px;
+            line-height: 19px;
+            color: $color-charade;
+        }
+
+        &-link {
+            color: $color-white;
+        }
+    }
+}

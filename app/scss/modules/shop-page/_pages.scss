@@ -1,0 +1,23 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 60px;
+
+    &__list {
+        display: flex;
+
+        &-item {
+            font-family: $font-os-regular;
+            font-size: 18px;
+            line-height: 25px;
+            color: $color-mine-shaft;
+            padding: 0 10px;
+
+            & a:hover {
+            color: $color-mariner;
+            border-bottom: 1px solid $color-mariner;
+            }
+        }
+    }
+}
